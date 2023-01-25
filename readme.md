@@ -22,10 +22,12 @@ Download - Unzip - Copy to application
 
 https://ohmyz.sh/
 
-```sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-```echo "
+```
+echo "
 # load commands from bash
 source ~/.bash_profile" >> ~/.zshrc
 ```
@@ -34,7 +36,8 @@ source ~/.bash_profile" >> ~/.zshrc
 
 https://brew.sh/
 
-```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ## .ssh
@@ -45,10 +48,12 @@ Do not forget setup ssh keys for git
 
 https://asdf-vm.com/guide/getting-started.html#official-download
 
-```git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.1
+```
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.11.1
 ```
 
-```echo "
+```
+echo "
 # asdf
 . \"$HOME/.asdf/asdf.sh\"
 . \"$HOME/.asdf/completions/asdf.bash\"" >> ~/.bash_profile
