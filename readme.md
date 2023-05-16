@@ -77,6 +77,18 @@ asdf global gradle latestt
 ```
 
 ## docker 
+
+https://docs.docker.com/desktop/install/mac-install/
+
 ## vscode
+
 ## sublime
+
 ## jetbrains
+
+## minikube
+https://minikube.sigs.k8s.io/docs/start/
+
+```
+brew install minikube
+```
