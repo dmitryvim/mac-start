@@ -86,6 +86,8 @@ https://docs.docker.com/desktop/install/mac-install/
 
 ## jetbrains
 
+## slack
+
 ## minikube
 https://minikube.sigs.k8s.io/docs/start/
 
